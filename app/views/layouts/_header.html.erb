@@ -8,9 +8,9 @@
 	<div id="banner">
 		<div id='search-form'>
 			<%= form_tag(books_index_path, method: :get) do %>
-				<%= link_to image_tag("https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-and-shapes-3/177800/102-512.png"), "https://www.google.co.in" %>
+				<%= link_to image_tag("home-icon.png"), "https://booksearchy.herokuapp.com/" %>
 				<%= text_field_tag :search_term, nil, placeholder: 'Search Book By Title...', size: 45 %>
-				<%= image_submit_tag('https://cdn0.iconfinder.com/data/icons/ringtone-music-instruments/512/loop-instrument-find-magnifier-search-blue-round-512.png', class: "search-icon") %>
+				<%= image_submit_tag('search-icon.png', class: "search-icon") %>
 			<% end %>
 		</div>
 	</div>
